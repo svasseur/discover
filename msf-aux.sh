@@ -13,7 +13,7 @@ echo -e "${BLUE}Using the following resource files.${NC}"
 cp -R $discover/resource/ /tmp/
 
 echo workspace -a $name > /tmp/master
-echo spool tmpmsf > /tmp/master
+echo spool tmpmsf >> /tmp/master
 
 if [ -f $name/19.txt ]; then
      echo "     Chargen Probe Utility"
